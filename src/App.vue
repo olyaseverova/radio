@@ -12,7 +12,7 @@
     <ul class="audios-list list">
       <li class="audios-list__item" v-for="audio in audios" :key="audio.id">
         <p class="audios-list__title">{{ audio.title }}</p>
-        <audio controls :src="audio.src"></audio>
+        <audio controls :src="audio.src" :type="audio.type"></audio>
       </li>
     </ul>
   </div>
@@ -25,18 +25,22 @@ export default {
       audios: [
         {
           src: "http://89.22.156.37:8000/mpd.128",
+          type: "audio/mpeg",
           title: "Arimoia Trio - ГђВ§ГђВµГђВ»ГђВѕГђВІГђВµГђВє",
         },
         {
           src: "http://89.22.156.37:8000/mpd.320",
+          type: "audio/mpeg",
           title: "Arimoia Trio - Ð§ÐµÐ»Ð¾Ð²ÐµÐº",
         },
         {
           src: "http://89.22.156.37:8000/mpd.64",
+          type: "audio/mpeg",
           title: "Arimoia Trio - ├Р┬з├Р┬╡├Р┬╗├Р┬╛├Р┬▓├Р┬╡├Р┬║",
         },
         {
           src: "http://89.22.156.37:8000/mpd.ogg",
+          type: "audio/ogg",
           title: "Arimoia Trio - Человек",
         },
       ],
