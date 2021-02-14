@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Voguer Sans";
+  src: url("../fonts/VoguerSans.woff");
+}
+
+body {
+  min-width: 375px;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: 18px;
+  color: $color-white;
+  background-color: $color-black;
+  font-family: 'Voguer Sans';
+
+  @media (min-width: $desktop-width) {
+    font-size: 26px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.up {
+  text-transform: uppercase;
+}

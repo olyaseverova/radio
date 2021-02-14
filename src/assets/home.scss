@@ -1,0 +1,72 @@
+.home {
+    width: 355px;
+    margin: 0 auto;
+    padding: 35px 0;
+
+    @media (min-width: $desktop-width) {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 1340px;
+        padding: 75px 0;
+    }
+}
+
+.home__img {
+    width: 355px;
+    height: 200px;
+    margin: 0 0 35px 0;
+
+    @media (min-width: $desktop-width) {
+        width: 640px;
+        height: 360px;
+        margin: 0;
+    }
+}
+
+.audios-list {
+    margin: 0;
+    padding: 0;
+
+    .audios-list__item {
+        margin: 0 0 30px 0;
+
+        .audios-list__title {
+            margin: 0 0 10px 0;
+
+            @media (min-width: $desktop-width) {
+                margin: 0 0 15px 0;
+            }
+        }
+    }
+}
+
+.main-h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0 0 35px 0;
+
+    @media (min-width: $desktop-width) {
+        width: 800px;
+        margin: 0 auto 75px auto;
+        font-size: 60px;
+    }
+}
+
+.main-h3 {
+    text-align: center;
+
+    @media (min-width: $desktop-width) {
+        width: 870px;
+        margin: 0 auto;
+    }
+}
+
+.main-text {
+    text-indent: 20px;
+    margin: 0 0 35px 0;
+
+    @media (min-width: $desktop-width) {
+        margin: 10px auto 75px auto;
+    }
+}
