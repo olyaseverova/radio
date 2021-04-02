@@ -26,22 +26,22 @@ export default {
         {
           src: "http://89.22.156.37:8000/mpd.128",
           type: "audio/mpeg",
-          title: "Arimoia Trio - ГђВ§ГђВµГђВ»ГђВѕГђВІГђВµГђВє",
+          title: "Arimoia Trio",
         },
         {
           src: "http://89.22.156.37:8000/mpd.320",
           type: "audio/mpeg",
-          title: "Arimoia Trio - Ð§ÐµÐ»Ð¾Ð²ÐµÐº",
+          title: "Arimoia Trio",
         },
         {
           src: "http://89.22.156.37:8000/mpd.64",
           type: "audio/mpeg",
-          title: "Arimoia Trio - ├Р┬з├Р┬╡├Р┬╗├Р┬╛├Р┬▓├Р┬╡├Р┬║",
+          title: "Arimoia Trio",
         },
         {
           src: "http://89.22.156.37:8000/mpd.ogg",
           type: "audio/ogg",
-          title: "Arimoia Trio - Человек",
+          title: "Arimoia Trio - Ария из сюиты Ре мажор",
         },
       ],
     };
