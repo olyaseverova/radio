@@ -12,7 +12,9 @@
     <ul class="audios-list list">
       <li class="audios-list__item" v-for="audio in audios" :key="audio.id">
         <p class="audios-list__title">{{ audio.title }}</p>
-        <audio controls preload :src="audio.src" :type="audio.type"></audio>
+        <audio controls="">
+          <source :src="audio.src" :type="audio.type" />
+        </audio>
       </li>
     </ul>
   </div>
@@ -47,6 +49,5 @@ export default {
     };
   },
 };
-
 </script>
 
