@@ -28,22 +28,22 @@ export default {
         {
           src: "http://89.22.156.37:8000/mpd.128",
           type: "audio/mpeg",
-          title: "Arimoia Trio",
+          title: "Arimoia Trio - Fifty Wais To Leave Your Lover",
         },
         {
           src: "http://89.22.156.37:8000/mpd.320",
           type: "audio/mpeg",
-          title: "Arimoia Trio",
+          title: "Arimoia Trio - Fifty Wais To Leave Your Lover",
         },
         {
           src: "http://89.22.156.37:8000/mpd.64",
           type: "audio/mpeg",
-          title: "Arimoia Trio",
+          title: "Arimoia Trio - Fifty Wais To Leave Your Lover",
         },
         {
           src: "http://89.22.156.37:8000/mpd.ogg",
           type: "audio/ogg",
-          title: "Arimoia Trio - Ария из сюиты Ре мажор",
+          title: "Arimoia Trio - Fifty Wais To Leave Your Lover",
         },
       ],
     };
