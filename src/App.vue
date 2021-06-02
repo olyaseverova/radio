@@ -27,12 +27,12 @@ export default {
       audios: [
         {
           src: "http://89.22.156.37:8000/mpd.128",
-          type: "audio/mpeg; codecs=vorbis",
+          type: "audio/mp3",
           title: "Arimoia Trio - Fifty Wais To Leave Your Lover",
         },
         {
           src: "http://89.22.156.37:8000/mpd.320",
-          type: "audio/mpeg",
+          type: "audio/mp3",
           title: "Arimoia Trio - Fifty Wais To Leave Your Lover",
         },
         {
