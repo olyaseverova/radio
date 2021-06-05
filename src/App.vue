@@ -13,7 +13,7 @@
       <li class="audios-list__item" v-for="audio in audios" :key="audio.id">
         <p class="audios-list__title">{{ audio.title }}</p>
         <audio controls>
-          <source :src="audio.src" :type="audio.type" />
+          <source :src="audio.src" />
         </audio>
       </li>
     </ul>
@@ -27,22 +27,18 @@ export default {
       audios: [
         {
           src: "http://89.22.156.37:8000/mpd.128",
-          type: "audio/mp3",
           title: "Arimoia Trio - Fifty Wais To Leave Your Lover",
         },
         {
           src: "http://89.22.156.37:8000/mpd.320",
-          type: "audio/mp3",
           title: "Arimoia Trio - Fifty Wais To Leave Your Lover",
         },
         {
           src: "http://89.22.156.37:8000/mpd.64",
-          type: "audio/mpeg",
           title: "Arimoia Trio - Fifty Wais To Leave Your Lover",
         },
         {
           src: "http://89.22.156.37:8000/mpd.ogg",
-          type: "audio/ogg; codecs=vorbis",
           title: "Arimoia Trio - Fifty Wais To Leave Your Lover",
         },
       ],
